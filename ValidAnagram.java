@@ -8,7 +8,6 @@ import java.util.Map;
 class Solution{
 public boolean ValidAnagram (String s, String t){
         int[] arr = new int[26];
-        Map<String, String> map = new HashMap<>();
         if(s.length()!= t.length()){
             return false;
         }
@@ -31,7 +30,3 @@ class Main{
         System.out.println(va.ValidAnagram("anagram","nagaram"));
     }
 }
-
-
-
-
