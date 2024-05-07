@@ -1,3 +1,5 @@
+package ArraysAndHashing;
+
 import java.util.HashSet;
 import java.util.Set;
 //Intuition behind the problem - We take an empty set(stores unique elements only) and add each element of the array one by one

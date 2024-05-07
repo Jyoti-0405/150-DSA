@@ -1,3 +1,5 @@
+package ArraysAndHashing;
+
 import java.util.Arrays;
 
 //Intuition behind the problem - first calculate the left array, after the first loop left array will be left[1,2,6,24]

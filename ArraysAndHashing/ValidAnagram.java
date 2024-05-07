@@ -1,6 +1,5 @@
-import java.lang.module.ResolutionException;
-import java.util.HashMap;
-import java.util.Map;
+package ArraysAndHashing;
+
 //Intuition behind the problem- we take an empty array of length 26 and traverse in the first string and check the count of each letter in the string and increement it, we traverse
 //in the second string and decreement the count each time same characters occur in the string, at last we traverse each digit in the array and check
 //if a non zero value exists return false otherwise return true.

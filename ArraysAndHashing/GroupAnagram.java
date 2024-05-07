@@ -1,3 +1,5 @@
+package ArraysAndHashing;
+
 import java.util.*;
 //Intuition behind the problem - At first we sort the words in alphabetical order and we put them in a hashmap as keys as we iterate through the array of strings as soon as we find a word whose
 // letters match the letters already present in the hashmap we put that word in the value part of the hashmap, at last we return a new arraylist of map.values.
