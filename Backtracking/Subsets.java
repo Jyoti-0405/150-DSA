@@ -2,7 +2,8 @@ package Backtracking;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//Time compllexity - O(n.2^n)
+//Space cpmplexity - O(n.2^n)
 class Solution{
     public List<List<Integer>> Subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
